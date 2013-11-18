@@ -15,17 +15,17 @@ public class Messages {
 	
 	public static String nopermission = "&4You don't have permission to do this";
 	
-	public static String availablearenas = "&6Available arenas:&r ";
-	public static String arenadisabled = "&6Arena is disabled";
-	public static String arenarunning = "&6Arena already running"; 
+	public static String availablearenas = "&6Arenas On:&r ";
+	public static String arenadisabled = "&6[Fechado]";
+	public static String arenarunning = "&a[Em Progresso]"; 
 	public static String arenadisabling = "&6Arena is disabling";
 	
-	public static String playerscount = "&6Current players count:&r ";
-	public static String limitreached = "&6Slot limit reached.";
-	public static String playerjoinedtoplayer = "&6You joined the arena";
-	public static String playerjoinedtoothers = "&6Player {PLAYER} joined the arena";
-	public static String playerlefttoplayer = "&6You left the arena";
-	public static String playerlefttoothers = "&6Player {PLAYER} left the game";
+	public static String playerscount = "&aJogadores:&r ";
+	public static String limitreached = "&cServer Full.";
+	public static String playerjoinedtoplayer = "";
+	public static String playerjoinedtoothers = "&6{PLAYER} entrou no servidor";
+	public static String playerlefttoplayer = "";
+	public static String playerlefttoothers = "&6{PLAYER} desistiu";
 	public static String playervotedforstart = "&6You voted for game start";
 	public static String playeralreadyvotedforstart = "&6You already voted";
 	public static String arenastarted = "&6Arena started. Time limit is {TIMELIMIT} seconds";
