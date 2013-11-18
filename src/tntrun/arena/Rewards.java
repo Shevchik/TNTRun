@@ -84,7 +84,7 @@ public class Rewards {
 				player.getWorld().dropItemNaturally(player.getLocation(), reward);
 			}
 		}
-		if (moneyreward != 0)
+		if (moneyreward != 10)
 		{
 			rewardMoney(player.getName(), moneyreward);
 		}
