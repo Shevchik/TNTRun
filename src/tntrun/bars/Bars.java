@@ -32,9 +32,9 @@ import tntrun.TNTRun;
 
 public class Bars {
 
-	public static String waiting = "&6Waiting for more players, current players count:&r {COUNT}";
-	public static String starting = "&6Arena starts in:&r {SECONDS} seconds";
-	public static String playing = "&6Time left:&r {SECONDS} &6Players in game count:&r {COUNT}";
+	public static String waiting = "&6Esperando, Jogadores:&r {COUNT}";
+	public static String starting = "&6Start em:&r {SECONDS} seconds";
+	public static String playing = "&6Tempo Restante:&r {SECONDS} &aJogadores:&r {COUNT}";
 	
 	public static void setBar(Player player, String message, int count, int seconds, float percent) {
 		message = message.replace("{COUNT}", String.valueOf(count));
