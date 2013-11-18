@@ -58,9 +58,9 @@ public class SignEditor {
 	{
 		String text = null;
 		if(mode == SignMode.GAME_IN_PROGRESS) {
-			text = ChatColor.RED.toString() + ChatColor.BOLD.toString() + "In game";
+			text = ChatColor.RED.toString() + ChatColor.BOLD.toString() + "[Em Progresso]";
 		} else if(mode == SignMode.DISABLED) {
-			text = ChatColor.RED.toString() + ChatColor.BOLD.toString() + "Disabled";
+			text = ChatColor.RED.toString() + ChatColor.BOLD.toString() + "[Fechada]";
 		} else if(players == maxPlayers) {
 			text = ChatColor.RED.toString() + ChatColor.BOLD.toString() + Integer.toString(players) + "/" + Integer.toString(maxPlayers);
 		} else {
